@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+master_ruangan_manager,master.ruangan.manager,model_master_ruangan,group_master_ruangan_manager,1,1,1,1
+master_ruangan_user,master.ruangan.user,model_master_ruangan,group_master_ruangan_user,1,0,0,0
+pemesanan_ruangan_manager,pemesanan.ruangan.manager,model_pemesanan_ruangan,group_master_ruangan_manager,1,1,1,1
+pemesanan_ruangan_user,pemesanan.ruangan.user,model_pemesanan_ruangan,group_master_ruangan_user,1,0,0,0

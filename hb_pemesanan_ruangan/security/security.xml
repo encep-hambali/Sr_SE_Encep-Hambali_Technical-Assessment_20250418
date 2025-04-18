@@ -1,0 +1,25 @@
+<odoo>
+
+
+    <!-- Membuat Category Group Entity -->
+
+    <record id="module_master_ruangan" model="ir.module.category">
+        <field name="name">Master Ruangan</field>
+    </record>
+
+    <!-- Membuat Group Entity -->
+
+    <record id="group_master_ruangan_manager" model="res.groups">
+        <field name="name">Master Ruangan / Manager</field>
+        <field name="category_id" ref="module_master_ruangan"/>
+    </record>
+
+    <record id="group_master_ruangan_user" model="res.groups">
+        <field name="name">Master Ruangan / User</field>
+        <field name="category_id" ref="module_master_ruangan"/>
+    </record>
+
+
+
+
+</odoo>

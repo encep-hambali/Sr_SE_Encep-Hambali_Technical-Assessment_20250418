@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "93b7fb94-aa3a-4e17-8ab7-4a95bd15ea03",
+		"name": "Pemesanan-Ruangan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42329540"
+	},
+	"item": [
+		{
+			"name": "pemesanan-ruangan",
+			"item": [
+				{
+					"name": "status-pemesanan",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{ \r\n   \"jsonrpc\": \"2.0\", \r\n\r\n   \"params\": { \r\n\r\n                // \"db\": \"MLP_RE2025\", \r\n\r\n                // \"login\": \"admin\", \r\n\r\n                // \"password\": \"Just4Bomba!2024#\" \r\n\r\n                \r\n\r\n}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8070/api/booking/status?booking_number=PRU00004",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8070",
+							"path": [
+								"api",
+								"booking",
+								"status"
+							],
+							"query": [
+								{
+									"key": "booking_number",
+									"value": "PRU00004"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "authenticate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-API-Key",
+								"value": "e151485930db342d6e405cd0daf9480335f92509",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{ \r\n   \"jsonrpc\": \"2.0\", \r\n\r\n   \"params\": { \r\n\r\n                // \"db\": \"MLP_RE2025\", \r\n\r\n                // \"login\": \"admin\", \r\n\r\n                // \"password\": \"e151485930db342d6e405cd0daf9480335f92509\" \r\n\r\n                \r\n\r\n}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8070/web/session/authenticate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8070",
+							"path": [
+								"web",
+								"session",
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

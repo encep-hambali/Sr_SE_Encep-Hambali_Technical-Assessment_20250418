@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Meeting Room Kecil -->
+        <record id="data_master_ruangan_kecil_1A" model="master.ruangan">
+            <field name="name">Meeting Room Kecil - 1A</field>
+            <field name="room_type">meeting_small</field>
+            <field name="location">1A</field>
+            <field name="room_photo"></field>
+            <field name="capacity">5</field>
+            <field name="description">Meeting Room Kecil - 1A untuk short meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_kecil_1B" model="master.ruangan">
+            <field name="name">Meeting Room Kecil - 1B</field>
+            <field name="room_type">meeting_small</field>
+            <field name="location">1B</field>
+            <field name="room_photo"></field>
+            <field name="capacity">5</field>
+            <field name="description">Meeting Room Kecil - 1B untuk short meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_kecil_1C" model="master.ruangan">
+            <field name="name">Meeting Room Kecil - 1C</field>
+            <field name="room_type">meeting_small</field>
+            <field name="location">1C</field>
+            <field name="room_photo"></field>
+            <field name="capacity">5</field>
+            <field name="description">Meeting Room Kecil - 1C untuk short meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_kecil_2A" model="master.ruangan">
+            <field name="name">Meeting Room Kecil - 2A</field>
+            <field name="room_type">meeting_small</field>
+            <field name="location">2A</field>
+            <field name="room_photo"></field>
+            <field name="capacity">5</field>
+            <field name="description">Meeting Room Kecil - 2A untuk short meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_kecil_2B" model="master.ruangan">
+            <field name="name">Meeting Room Kecil - 2B</field>
+            <field name="room_type">meeting_small</field>
+            <field name="location">2B</field>
+            <field name="room_photo"></field>
+            <field name="capacity">5</field>
+            <field name="description">Meeting Room Kecil - 2B untuk short meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_kecil_2C" model="master.ruangan">
+            <field name="name">Meeting Room Kecil - 2C</field>
+            <field name="room_type">meeting_small</field>
+            <field name="location">2C</field>
+            <field name="room_photo"></field>
+            <field name="capacity">5</field>
+            <field name="description">Meeting Room Kecil - 2C untuk short meeting</field>
+        </record>
+
+        <!-- Meeting Room Besar -->
+        <record id="data_master_ruangan_besar_1A" model="master.ruangan">
+            <field name="name">Meeting Room Besar - 1A</field>
+            <field name="room_type">meeting_large</field>
+            <field name="location">1A</field>
+            <field name="room_photo"></field>
+            <field name="capacity">10</field>
+            <field name="description">Meeting Room Besar - 1A untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_besar_1B" model="master.ruangan">
+            <field name="name">Meeting Room Besar - 1B</field>
+            <field name="room_type">meeting_large</field>
+            <field name="location">1B</field>
+            <field name="room_photo"></field>
+            <field name="capacity">10</field>
+            <field name="description">Meeting Room Besar - 1B untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_besar_1C" model="master.ruangan">
+            <field name="name">Meeting Room Besar - 1C</field>
+            <field name="room_type">meeting_large</field>
+            <field name="location">1C</field>
+            <field name="room_photo"></field>
+            <field name="capacity">10</field>
+            <field name="description">Meeting Room Besar - 1C untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_besar_2A" model="master.ruangan">
+            <field name="name">Meeting Room Besar - 2A</field>
+            <field name="room_type">meeting_large</field>
+            <field name="location">2A</field>
+            <field name="room_photo"></field>
+            <field name="capacity">10</field>
+            <field name="description">Meeting Room Besar - 2A untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_besar_2B" model="master.ruangan">
+            <field name="name">Meeting Room Besar - 2B</field>
+            <field name="room_type">meeting_large</field>
+            <field name="location">2B</field>
+            <field name="room_photo"></field>
+            <field name="capacity">10</field>
+            <field name="description">Meeting Room Besar - 2B untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_besar_2C" model="master.ruangan">
+            <field name="name">Meeting Room Besar - 2C</field>
+            <field name="room_type">meeting_large</field>
+            <field name="location">2C</field>
+            <field name="room_photo"></field>
+            <field name="capacity">10</field>
+            <field name="description">Meeting Room Besar - 2C untuk long meeting</field>
+        </record>
+
+        <!-- Aula -->
+        <record id="data_master_ruangan_aula_1A" model="master.ruangan">
+            <field name="name">Aula - 1A</field>
+            <field name="room_type">aula</field>
+            <field name="location">1A</field>
+            <field name="room_photo"></field>
+            <field name="capacity">20</field>
+            <field name="description">Aula - 1A untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_aula_1B" model="master.ruangan">
+            <field name="name">Aula - 1B</field>
+            <field name="room_type">aula</field>
+            <field name="location">1B</field>
+            <field name="room_photo"></field>
+            <field name="capacity">20</field>
+            <field name="description">Aula - 1B untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_aula_1C" model="master.ruangan">
+            <field name="name">Aula - 1C</field>
+            <field name="room_type">aula</field>
+            <field name="location">1C</field>
+            <field name="room_photo"></field>
+            <field name="capacity">20</field>
+            <field name="description">Aula - 1C untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_aula_2A" model="master.ruangan">
+            <field name="name">Aula - 2A</field>
+            <field name="room_type">aula</field>
+            <field name="location">2A</field>
+            <field name="room_photo"></field>
+            <field name="capacity">20</field>
+            <field name="description">Aula - 2A untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_aula_2B" model="master.ruangan">
+            <field name="name">Aula - 2B</field>
+            <field name="room_type">aula</field>
+            <field name="location">2B</field>
+            <field name="room_photo"></field>
+            <field name="capacity">20</field>
+            <field name="description">Aula - 2B untuk long meeting</field>
+        </record>
+
+        <record id="data_master_ruangan_aula_2C" model="master.ruangan">
+            <field name="name">Aula - 2C</field>
+            <field name="room_type">aula</field>
+            <field name="location">2C</field>
+            <field name="room_photo"></field>
+            <field name="capacity">20</field>
+            <field name="description">Aula - 2C untuk long meeting</field>
+        </record>
+
+    </data>
+</odoo>
