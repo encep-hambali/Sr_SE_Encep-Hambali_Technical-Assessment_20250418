@@ -6,3 +6,6 @@
 
 # untuk API endpoint nya seperti ini :http://localhost:8070/api/booking/status?booking_number=PRU00002
 # booking_number di sesuaikan dengan nomor pemesanan yang ada di data pemesanan ruangan
+# untuk bisa mengakses endpoint di atas anda harus melakukan authentication dulu melalui
+# enpoint default odoo untuk authentication : http://localhost:8070/web/session/authenticate
+# contohnya sudah ada di file json
